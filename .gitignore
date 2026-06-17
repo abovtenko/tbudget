@@ -2,3 +2,4 @@
 # ignore build directories
 TBudget.App/bin
 TBudget.App/obj
+TBudget.Design
