@@ -1,6 +1,6 @@
-using CashDB.Domain;
+using TBudget.App.Domain;
 
-namespace CashDB.Infrastructure;
+namespace TBudget.App.Infrastructure;
 
 public class MockTransactionFactory
 {

@@ -1,6 +1,6 @@
-using CashDB.Domain;
+using TBudget.App.Domain;
 
-namespace CashDB.Cli;
+namespace TBudget.App.Cli;
 
 internal static class TransactionPrinter
 {

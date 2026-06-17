@@ -1,10 +1,10 @@
 using System.Runtime.CompilerServices;
-using CashDB.Domain;
-using CashDB.Application;
-using CashDB.Infrastructure;
+using TBudget.App.Domain;
+using TBudget.App.Application;
+using TBudget.App.Infrastructure;
 using System.Threading.Tasks;
 
-namespace CashDB.Cli;
+namespace TBudget.App.Cli;
 
 internal static class Menu
 {
@@ -81,29 +81,6 @@ internal static class Menu
 
                     break;
 
-                case "5":
-                    Console.Clear();  
-
-                    var model = new ChatModel();                    
-
-                    try
-                    {
-
-                        Task.WaitAll(model.Run());
-
-                        Console.Clear();  
-                        Console.WriteLine("Chat is over.");
-                    }      
-                    catch (Exception e)
-                    {
-                        Console.Clear();  
-                        Console.WriteLine("Something went wrong.");
-                    }
-
-                    Pause();
-
-                    break;
-
                 case "0":
                     return;
 
@@ -123,11 +100,10 @@ internal static class Menu
         Console.WriteLine("2. Import Transactions (CSV)");
         Console.WriteLine("3. Set Inbox Directory");
         Console.WriteLine("4. Save Transactions");
-        Console.WriteLine("5. Chat Support");
-        Console.WriteLine("6. Reports");
-        Console.WriteLine("7. Categories");
-        Console.WriteLine("8. Accounts");
-        Console.WriteLine("9. Export");
+        Console.WriteLine("5. Reports");
+        Console.WriteLine("6. Categories");
+        Console.WriteLine("7. Accounts");
+        Console.WriteLine("8. Export");
         Console.WriteLine("0. Exit");
         Console.WriteLine();
 

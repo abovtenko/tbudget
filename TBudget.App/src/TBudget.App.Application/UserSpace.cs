@@ -1,7 +1,7 @@
-using CashDB.Domain;
-using CashDB.Infrastructure;
+using TBudget.App.Domain;
+using TBudget.App.Infrastructure;
 
-namespace CashDB.Application;
+namespace TBudget.App.Application;
 
 public class UserSpace
 {

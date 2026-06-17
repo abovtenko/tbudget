@@ -1,14 +1,13 @@
 using System.Runtime;
 using System.Text.Json;
-using CashDB.Application;
-using CashDB.Domain;
+using TBudget.App.Application;
+using TBudget.App.Domain;
 using Newtonsoft.Json;
 
-namespace CashDB.Infrastructure;
+namespace TBudget.App.Infrastructure;
 
 public class JsonFiles : 
-    IFileSaver<Transaction>, 
-    IFileReader<Transaction>
+    IFileSaver<Transaction>
 {
     private readonly JsonSerializerSettings _settings = new JsonSerializerSettings
     {

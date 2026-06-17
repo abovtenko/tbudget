@@ -1,8 +1,8 @@
 using System.Runtime;
-using CashDB.Application;
-using CashDB.Domain;
+using TBudget.App.Application;
+using TBudget.App.Domain;
 
-namespace CashDB.Infrastructure;
+namespace TBudget.App.Infrastructure;
 
 public class CsvTransactionImporter : ITransactionImporter
 {

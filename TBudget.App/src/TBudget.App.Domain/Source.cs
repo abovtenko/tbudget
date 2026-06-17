@@ -1,4 +1,4 @@
-namespace CashDB.Domain;
+namespace TBudget.App.Domain;
 
 public sealed class Source
 {

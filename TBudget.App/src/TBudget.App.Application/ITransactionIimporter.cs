@@ -1,6 +1,6 @@
-using CashDB.Domain;
+using TBudget.App.Domain;
 
-namespace CashDB.Application;
+namespace TBudget.App.Application;
 
 public interface ITransactionImporter
 {

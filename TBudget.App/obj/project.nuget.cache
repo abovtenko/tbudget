@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "43CAS0w1mWJwm3rJqLx32MRdveZdwh4rxFDF41KlUaz8NQFQO1PltoNgXzQXYcT+R/qQ0pwn4mJLT/dD7vizBg==",
+  "dgSpecHash": "A8hLTU26ph0ISYKBotfgEWxabITlQk9ZWgOEtrRDtk1dopgKarKdmcRSBgRnMzf8trexzdxLd6sKMmOTrcLHCg==",
   "success": true,
   "projectFilePath": "/home/rocksalt/dev/tbudget/TBudget.App/TBudget.App.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/rocksalt/.nuget/packages/newtonsoft.json/13.0.4/newtonsoft.json.13.0.4.nupkg.sha512"
+  ],
   "logs": []
 }

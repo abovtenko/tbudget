@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "be978074-2b9f-4d06-924a-eab2e00b64f9",
+    "Name": "Bank 1",
+    "Type": 1,
+    "DateFormat": "yyyymmdd",
+    "Columns": [
+        {
+            "Index": 0,
+            "Property": "TransactionDate"
+        },
+        {
+            "Index": 1,
+            "Property": "Description"
+        },
+        {
+            "Index": 2,
+            "Property": "Debit"
+        },
+        {
+            "Index": 3,
+            "Property": "Credit"
+        }
+    ]
+  }
+]

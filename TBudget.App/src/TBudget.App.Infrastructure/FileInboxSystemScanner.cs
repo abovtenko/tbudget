@@ -1,4 +1,4 @@
-using CashDB.Application;
+using TBudget.App.Application;
 
 public class FileSystemInboxScanner : IInboxFileScanner
 {
