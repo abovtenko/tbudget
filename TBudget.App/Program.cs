@@ -1,2 +1,16 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, Git Test 4!");
+﻿using TBudget.App.Application;
+using TBudget.App.Cli;
+
+
+Console.Title = "Cash DB";
+
+Console.WriteLine("======================================");
+Console.WriteLine("              Cash DB                 ");
+Console.WriteLine("======================================");
+Console.WriteLine();
+Console.WriteLine("Press any key to continue...");
+Console.ReadKey(true);
+
+var space = new UserSpace();
+
+await Menu.ShowMenu(space);
