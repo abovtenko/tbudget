@@ -5,7 +5,7 @@ using TBudget.App.Cli;
 Console.Title = "Cash DB";
 
 Console.WriteLine("======================================");
-Console.WriteLine("              Cash DB                 ");
+Console.WriteLine("              tbudget                 ");
 Console.WriteLine("======================================");
 Console.WriteLine();
 Console.WriteLine("Press any key to continue...");
